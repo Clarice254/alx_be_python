@@ -1,0 +1,11 @@
+#Asking user what the weather condition is
+weather = input("what's the weather today? (sunny/rainy/cold):").lower()
+#Providing recommendations based on the weather
+if weather == "sunny":
+    print("Wear a tshirt and sunglasses.")
+elif weather == "rainy":
+    print("Don't forget your umbrella and a raincoat.")
+elif weather == "cold":
+    print("Make sure to wear a warm coat and a scarf.")
+else:
+    print("Sorry, I don't have recommendations for this weather.")
