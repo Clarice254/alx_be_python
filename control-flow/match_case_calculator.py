@@ -1,9 +1,11 @@
-#Asking user for input
+# Asking user for input
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
-#Asking user to choose operator
+
+# Asking user to choose operator
 operator = input("Choose the operation (+, -, *, /): ")
-#Performing operations
+
+# Performing operations using match case
 match operator:
     case "+":
         result = num1 + num2
